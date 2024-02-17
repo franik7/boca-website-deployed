@@ -9,20 +9,12 @@ app.use(express.static(`${__dirname}/public/`))
 //ROUTES
 app.get('/boca', (req, res) => {
     res.send(`
-    Dale dale dale Bo                                              
-    a todas partes voy con vos                                  
-    te sigo de la cuna hasta el cajón                          
-    y te llevo adentro de mi corazón                         
-    y dale Bo’                                                           
-    y dale dale Boca                                                 
-    y dale Bo’ y dale dale Bo’                                   
-    y dale Bo’                                                       
-    y dale dale Boca                                               
-    y dale Boca                                                      
-    y dale dale Bo’. Bostero soy...
+    Dale, dale, dale, dale, dale, dale, dale, Boca
+    Dale, dale, dale, dale, dale, dale, dale, Bo
+    
+    (repeated 6 times)
     `
-    
-    
+       
     )
 })
 
